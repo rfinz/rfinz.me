@@ -9,7 +9,7 @@ How content becomes website.
 
 Original documents are in =org/_posts= and get rendered into =jekyll/_posts=. The code for doing that is in my [[https://github.com/rfinz/dotfiles/blob/9b3aba86a499f4fe6ffeebb5e57a7e9e2540cffb/.emacs#L174-L207][.emacs]]. There's also a bit of code there for rendering the inter-post links that might be of interest.
 
-Jekyll headers and any template code are enclosed in =#+BEGIN_EXPORT html= org tags so that they are rendered exactly in the resulting files. An example is [[https://github.com/rfinz/rfinz/blob/794990d9b15a96eee1ebc706115b209b1043476c/org/attempts/index.org#L1-L22][here]].
+Jekyll headers and any template code are enclosed in =#+BEGIN_EXPORT html= org tags so that they are rendered exactly in the resulting files. An example is [[https://github.com/rfinz/rfinz.me/blob/794990d9b15a96eee1ebc706115b209b1043476c/org/attempts/index.org#L1-L22][here]].
 
 Much of the effort to get org working with jekyll relied on the tutorial [[https://orgmode.org/worg/org-tutorials/org-jekyll.html][here]].
 
@@ -22,7 +22,7 @@ Some javascript demos that I've coded over the years are included as git submodu
 
 *** Plugins
 
-In order to accomplish the github backlinks I scripted a tiny [[https://github.com/rfinz/rfinz/blob/master/jekyll/_plugins/jekyll-blob-aware.rb][plugin]] that runs a git command and injects the result into a jekyll variable.
+In order to accomplish the github backlinks I scripted a tiny [[https://github.com/rfinz/rfinz.me/blob/master/jekyll/_plugins/jekyll-blob-aware.rb][plugin]] that runs a git command and injects the result into a jekyll variable.
 
 *** Theme
 
